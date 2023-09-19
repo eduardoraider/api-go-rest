@@ -83,7 +83,9 @@ curl --location 'http://localhost:8000/api/personalities' \
 --header 'Content-Type: application/json' \
 --data '{
     "name": "Nikola Tesla",
-    "history": "Nikola Tesla was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist best known for his contributions to the design of the modern alternating current electricity supply system."
+    "history": "Nikola Tesla was a Serbian-American inventor, electrical engineer, \
+    mechanical engineer, and futurist best known for his contributions to the design \
+    of the modern alternating current electricity supply system."
 }'
 ```
 
@@ -93,7 +95,10 @@ curl --location --request PUT 'http://localhost:8000/api/personalities/1' \
 --header 'Content-Type: application/json' \
 --data '{
     "name": "Ada Lovelace",
-    "history": "Augusta Ada King, Countess of Lovelace was an English mathematician and writer, chiefly known for her work on Charles Babbage'\''s proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the machine had applications beyond pure calculation."
+    "history": "Augusta Ada King, Countess of Lovelace was an English mathematician \
+    and writer, chiefly known for her work on Charles Babbage'\''s proposed mechanical \
+    general-purpose computer, the Analytical Engine. She was the first to recognise \
+    that the machine had applications beyond pure calculation."
 }'
 ```
 
